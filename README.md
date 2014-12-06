@@ -1,0 +1,4 @@
+gitminetest
+===========
+
+testmygit
