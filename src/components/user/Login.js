@@ -37,6 +37,7 @@ const Login = () => {
                                         onChange={(e) => setPassword(e.target.value)}
                                     />
                                 </div>
+                                <div className='row'>
                                 <div className="col-6"> 
                                 <button
                                     id="login_button"
@@ -46,7 +47,11 @@ const Login = () => {
                                     LOGIN
                                 </button>
                                 </div>
-                                <Link to="/loginotp" className="float-right mt-3">Login with otp?</Link> 
+                                <div className="col-6 marTop"> 
+                                <Link to="/loginotp" className="float-right mt-3 labelspan">Login with otp?</Link> 
+                                 </div>
+                                </div>
+                                
                             </form>
                         </div>
                     </div>

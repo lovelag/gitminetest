@@ -26,7 +26,7 @@ const Register = () => {
                     <form className="shadow-lg" onSubmit={submitHandler} encType='multipart/form-data'>
                         <h1 className="mb-3">Register</h1>
                         <div className="form-group">
-                            <label htmlFor="email_field">number</label>
+                            <label className="labelspan" htmlFor="email_field">number</label>
                             <input
                                 type="name"
                                 id="name_field"
@@ -37,7 +37,7 @@ const Register = () => {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="email_field">Email</label>
+                            <label className="labelspan" htmlFor="email_field">Email</label>
                             <input
                                 type="email"
                                 id="email_field"
@@ -48,7 +48,7 @@ const Register = () => {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="password_field">Password</label>
+                            <label className="labelspan" htmlFor="password_field">Password</label>
                             <input
                                 type="password"
                                 id="password_field"

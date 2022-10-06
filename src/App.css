@@ -7,7 +7,9 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
-
+a:hover{
+  text-decoration: none;
+}
 ::-webkit-scrollbar-track {
   background-color: #f5f5f5;
 }
@@ -96,7 +98,9 @@ body {
   font-size: 0.9rem;
   color: grey;
 }
-
+.marTop{
+  margin-top: 50px;
+}
 /*header*/
 .navbar span{
     padding: 0 8px;
