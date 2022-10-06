@@ -25,13 +25,13 @@ const Header = () => {
                 </div>
                 <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
                     <span>
-                    <Link to="/login">
-                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <Link to="/">
+                    <i className="fa fa-user" aria-hidden="true"></i>
                     </Link>
                     </span>
                     <span>
                     <Link to="/contact">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <i className="fa fa-envelope-o" aria-hidden="true"></i>
                     </Link>
                     </span>
                 </div>

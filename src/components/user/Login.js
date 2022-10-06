@@ -14,7 +14,7 @@ const Login = () => {
                     <MetaData title={'Login'} />
                     <div className="row wrapper">
                         <div className="col-10 col-lg-5">
-                            <form className="shadow-sm p-3 mb-5 bg-white rounded" onSubmit={submitHandler}>
+                            <form className="shadow-lg p-3 mb-5 bg-white rounded" onSubmit={submitHandler}>
                                 <h1 className="mb-3">Authentication</h1>
                                 <div className="form-group">
                                     <span className="labelspan" htmlFor="email_field">Cell Number or email/username</span>
@@ -37,6 +37,7 @@ const Login = () => {
                                         onChange={(e) => setPassword(e.target.value)}
                                     />
                                 </div>
+                                <div className="col-6"> 
                                 <button
                                     id="login_button"
                                     type="submit"
@@ -44,7 +45,8 @@ const Login = () => {
                                 >
                                     LOGIN
                                 </button>
-                                <Link to="/register" className="float-right mt-3">Login with otp?</Link> 
+                                </div>
+                                <Link to="/loginotp" className="float-right mt-3">Login with otp?</Link> 
                             </form>
                         </div>
                     </div>
